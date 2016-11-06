@@ -15,6 +15,9 @@
 		DA77FF921DCEEEBC00281B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA77FF901DCEEEBC00281B9C /* LaunchScreen.storyboard */; };
 		DA77FF9D1DCEEEBC00281B9C /* ___UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77FF9C1DCEEEBC00281B9C /* ___UICollectionViewTests.m */; };
 		DA77FFA81DCEEEBC00281B9C /* ___UICollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77FFA71DCEEEBC00281B9C /* ___UICollectionViewUITests.m */; };
+		DA77FFB81DCEF37600281B9C /* HHCollectionViewTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77FFB71DCEF37600281B9C /* HHCollectionViewTurn.m */; };
+		DA77FFC11DCF4EEC00281B9C /* HHCollectionTurnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77FFBF1DCF4EEC00281B9C /* HHCollectionTurnCell.m */; };
+		DA77FFC21DCF4EEC00281B9C /* HHCollectionTurnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA77FFC01DCF4EEC00281B9C /* HHCollectionTurnCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		DA77FFA31DCEEEBC00281B9C /* 轮播图UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮播图UICollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA77FFA71DCEEEBC00281B9C /* ___UICollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UICollectionViewUITests.m"; sourceTree = "<group>"; };
 		DA77FFA91DCEEEBC00281B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA77FFB61DCEF37600281B9C /* HHCollectionViewTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHCollectionViewTurn.h; sourceTree = "<group>"; };
+		DA77FFB71DCEF37600281B9C /* HHCollectionViewTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHCollectionViewTurn.m; sourceTree = "<group>"; };
+		DA77FFBE1DCF4EEC00281B9C /* HHCollectionTurnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHCollectionTurnCell.h; sourceTree = "<group>"; };
+		DA77FFBF1DCF4EEC00281B9C /* HHCollectionTurnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHCollectionTurnCell.m; sourceTree = "<group>"; };
+		DA77FFC01DCF4EEC00281B9C /* HHCollectionTurnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHCollectionTurnCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		DA77FF811DCEEEBC00281B9C /* 轮播图UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				DA77FFB51DCEF35F00281B9C /* HHCollectionViewTurn */,
 				DA77FF851DCEEEBC00281B9C /* AppDelegate.h */,
 				DA77FF861DCEEEBC00281B9C /* AppDelegate.m */,
 				DA77FF881DCEEEBC00281B9C /* ViewController.h */,
@@ -138,6 +147,18 @@
 				DA77FFA91DCEEEBC00281B9C /* Info.plist */,
 			);
 			path = "轮播图UICollectionViewUITests";
+			sourceTree = "<group>";
+		};
+		DA77FFB51DCEF35F00281B9C /* HHCollectionViewTurn */ = {
+			isa = PBXGroup;
+			children = (
+				DA77FFB61DCEF37600281B9C /* HHCollectionViewTurn.h */,
+				DA77FFB71DCEF37600281B9C /* HHCollectionViewTurn.m */,
+				DA77FFBE1DCF4EEC00281B9C /* HHCollectionTurnCell.h */,
+				DA77FFBF1DCF4EEC00281B9C /* HHCollectionTurnCell.m */,
+				DA77FFC01DCF4EEC00281B9C /* HHCollectionTurnCell.xib */,
+			);
+			path = HHCollectionViewTurn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +266,7 @@
 			files = (
 				DA77FF921DCEEEBC00281B9C /* LaunchScreen.storyboard in Resources */,
 				DA77FF8F1DCEEEBC00281B9C /* Assets.xcassets in Resources */,
+				DA77FFC21DCF4EEC00281B9C /* HHCollectionTurnCell.xib in Resources */,
 				DA77FF8D1DCEEEBC00281B9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA77FF8A1DCEEEBC00281B9C /* ViewController.m in Sources */,
+				DA77FFB81DCEF37600281B9C /* HHCollectionViewTurn.m in Sources */,
 				DA77FF871DCEEEBC00281B9C /* AppDelegate.m in Sources */,
 				DA77FF841DCEEEBC00281B9C /* main.m in Sources */,
+				DA77FFC11DCF4EEC00281B9C /* HHCollectionTurnCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
